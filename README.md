@@ -20,7 +20,7 @@ You can also ask for a detailed report using the "-detail" command line flag. Th
 
 Notes:
 
-* usable/testable only for linux/amd64 binaries
+* tested/usable only for linux/amd64 binaries
 * currently works by parsing the output of 'objdump -d', which is brittle/fragile (also can be confused by assembly functions, which might not pattern-match properly)
 
 
